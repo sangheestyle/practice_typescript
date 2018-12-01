@@ -2,12 +2,12 @@
   "name": "naive-ts-starter",
   "version": "0.0.1",
   "description": "a naive typescript starter",
-  "main": "index.js",
+  "main": "src/app.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sangheestyle/naive-ts-starter.git"
   },
-  "author": "",
+  "author": "Sanghee Kim <sangheestyle@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sangheestyle/naive-ts-starter/issues"
