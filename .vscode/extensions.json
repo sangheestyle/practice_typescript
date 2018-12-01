@@ -2,6 +2,7 @@
     "recommendations": [
         "eg2.tslint",
         "streetsidesoftware.code-spell-checker",
-        "orta.vscode-jest"
+        "orta.vscode-jest",
+        "ryanluker.vscode-coverage-gutters"
     ]
 }
