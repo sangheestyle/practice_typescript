@@ -15,7 +15,7 @@
   "homepage": "https://github.com/sangheestyle/naive-ts-starter#readme",
   "scripts": {
     "start": "ts-node src/app.ts",
-    "test": "jest --forceExit --coverage --verbose",
+    "test": "jest --forceExit --coverage --verbose --detectOpenHandles",
     "tslint": "tslint -c tslint.json -p tsconfig.json"
   },
   "devDependencies": {
