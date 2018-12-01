@@ -7,14 +7,17 @@ describe("GET /api/users/:id", () => {
       .persist()
       .get("/api/users/1")
       .reply(200, {
-        name: "ari",
+        firstName: "ari",
+        lastName: "kim",
         age: 1,
       });
 
     const result = await getUser(1);
     expect(result)
       .toEqual({
-        name: "ari",
+        fullName: "ari kim",
+        firstName: "ari",
+        lastName: "kim",
         age: 1,
       });
   });
