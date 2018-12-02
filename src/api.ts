@@ -1,6 +1,6 @@
 import rp from "request-promise";
 
-export async function getUser(userId) {
+export async function getUser(userId: number): Promise<any> {
   try {
     return await rp({
       uri: `http://localhost:3000/api/users/${userId}`,
