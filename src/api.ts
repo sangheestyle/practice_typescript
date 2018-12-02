@@ -12,6 +12,10 @@ export async function getUser(userId: number) {
       fullName: `${response.firstName} ${response.lastName}`,
     };
   } catch (error) {
-    return {};
+    if (error.statusCode === 404) {
+      return null;
+    }
+
+    throw Error(`Unable to fetch user #${userId}`);
   }
 }
