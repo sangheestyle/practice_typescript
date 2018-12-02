@@ -15,5 +15,7 @@
         "definitelytyped",
         "promisified"
     ],
-    "jest.coverageFormatter": "GutterFormatter"
+    "jest.coverageFormatter": "GutterFormatter",
+    "cSpell.language": "en",
+    "editor.tabSize": 2,
 }
