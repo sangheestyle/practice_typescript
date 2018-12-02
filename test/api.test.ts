@@ -36,6 +36,6 @@ describe("GET /api/users/:id", () => {
     const userId = 1;
     await expect(api.getUser(userId))
       .rejects
-      .toThrow(`Unable to fetch user #${userId}`);
+      .toThrowError(`Unable to fetch user #${userId}`);
   });
 });

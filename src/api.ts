@@ -11,6 +11,6 @@ export async function getUser(userId) {
       return null;
     }
 
-    throw Error(`Unable to fetch user #${userId}`);
+    throw new Error(`Unable to fetch user #${userId}`);
   }
 }
